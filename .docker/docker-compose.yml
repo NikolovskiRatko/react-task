@@ -1,0 +1,16 @@
+services:
+  project-a:
+    build:
+      context: ..
+      dockerfile: .docker/Dockerfile
+    command: pnpm --filter project-a start
+    ports:
+      - "3000:3000"
+
+  project-b:
+    build:
+      context: ..
+      dockerfile: .docker/Dockerfile
+    command: pnpm --filter project-b start
+    ports:
+      - "3001:3000"
