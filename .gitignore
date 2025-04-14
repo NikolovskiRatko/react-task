@@ -1,0 +1,47 @@
+# ---------------------------
+# Node + PNPM
+# ---------------------------
+node_modules/
+.pnpm-store/
+npm-debug.log
+pnpm-debug.log
+
+# ---------------------------
+# Next.js build outputs
+# ---------------------------
+.next/
+apps/*/.next/
+apps/*/.turbo/
+apps/*/.vercel/
+apps/*/out/
+apps/*/.next/standalone/
+
+# ---------------------------
+# Dist/Build output in packages
+# ---------------------------
+packages/*/dist/
+packages/*/build/
+
+# ---------------------------
+# Jest/Testing
+# ---------------------------
+coverage/
+
+# ---------------------------
+# Docker/CI
+# ---------------------------
+docker-compose.override.yml
+docker-compose.dev.yml
+*.env
+*.env.*
+logs/
+
+# ---------------------------
+# OS/Editor junk
+# ---------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
