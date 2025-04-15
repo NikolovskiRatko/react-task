@@ -51,3 +51,9 @@ pnpm --filter project-a test
 ## CLI Brand Builds
 
 To build each brand separately visit the root package.json file to see the commands for filtered builds.
+
+## Websocket
+
+There is a live websocket container in Docker Compose that can be tested by visiting Project A index page ``http://localhost:3000/``.
+
+There is also a demo-websocket integration taht is tested via unit test.
