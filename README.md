@@ -47,3 +47,7 @@ and then run the following command:
 ``
 pnpm --filter project-a test
 ``
+
+## CLI Brand Builds
+
+To build each brand separately visit the root package.json file to see the commands for filtered builds.
